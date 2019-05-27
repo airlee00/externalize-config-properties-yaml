@@ -1,0 +1,8 @@
+
+server.port: 9090
+#spring.application.name: sample
+spring:
+  cloud:
+    config:
+      uri: http://localhost:9999/online
+      name: sample
